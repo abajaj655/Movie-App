@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+input{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    font-size: 17px;
+}
+
+input::placeholder{
+    font-size: 17px;
+}
+
+#container{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+#searchbar{
+    /* border: 1px solid teal; */
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+button{
+    padding: 13.5px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+div > h4{
+    text-align: center;
+}
+
+#container > div{
+    /* border: 1px solid red; */
+    background-color: white;
+}
+
+div > img{
+    width: 100%;
+}
+
+body{
+    background-color: #131927;
+}
+
+div > p{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    /* height: 500px; */
+    display: block;
+    margin: auto;
+}
+
+#x{
+    width: 60%;
+    margin: auto;
+}
